@@ -9,6 +9,7 @@
 - Bitbucket
 - CircleCI
 - GitLab
+- Harness
 - Jenkins
 - Travis CI
 

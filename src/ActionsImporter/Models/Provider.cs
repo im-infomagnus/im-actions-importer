@@ -9,5 +9,6 @@ public enum Provider
     Jenkins,
     TravisCI,
     Bamboo,
-    Bitbucket
+    Bitbucket,
+    Harness
 }
