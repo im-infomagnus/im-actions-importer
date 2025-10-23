@@ -21,6 +21,7 @@ public readonly struct Variable
         Provider.TravisCI => "Travis CI",
         Provider.Bamboo => "Bamboo",
         Provider.Bitbucket => "Bitbucket",
+        Provider.Harness => "Harness",
         _ => throw new ArgumentOutOfRangeException()
     };
 
