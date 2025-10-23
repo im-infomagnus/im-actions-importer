@@ -14,6 +14,7 @@ public class VariableTests
     [TestCase(Provider.TravisCI, "Travis CI")]
     [TestCase(Provider.Bamboo, "Bamboo")]
     [TestCase(Provider.Bitbucket, "Bitbucket")]
+    [TestCase(Provider.Harness, "Harness")]
     public void ProviderName_ValidName_ReturnsExpected(Provider provider, string providerName)
     {
         // Arrange

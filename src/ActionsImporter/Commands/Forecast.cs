@@ -56,6 +56,7 @@ public class Forecast : ContainerCommand
         command.AddCommand(new GitHub.Forecast(_args).Command(app));
         command.AddCommand(new Bamboo.Forecast(_args).Command(app));
         command.AddCommand(new Bitbucket.Forecast(_args).Command(app));
+        command.AddCommand(new Harness.Forecast(_args).Command(app));
 
         return command;
     }

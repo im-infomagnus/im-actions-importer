@@ -32,6 +32,7 @@ public class Audit : BaseCommand
         command.AddCommand(new Bitbucket.Audit(_args).Command(app));
         command.AddCommand(new Circle.Audit(_args).Command(app));
         command.AddCommand(new GitLab.Audit(_args).Command(app));
+        command.AddCommand(new Harness.Audit(_args).Command(app));
         command.AddCommand(new Jenkins.Audit(_args).Command(app));
         command.AddCommand(new Travis.Audit(_args).Command(app));
 
